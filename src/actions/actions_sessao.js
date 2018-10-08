@@ -24,15 +24,14 @@ export const login = (user, history) => {
 					  else
 						history.push('/');
 					
-						return true;
 					}).catch(err => {return false});
 				  }).catch(err => {return false});
-				}
-				else
-					return false;
+				
+				return true;
+			}
 		}
 	
-	return false;
+		return false;
 	};
 };
 

@@ -58,7 +58,7 @@ class Home extends Component {
 									<div className='col'>
 										<h3>Painel de Editais</h3>
 										<br/>
-										<span>Utilize o menu abaixo para {true?"criar, editar e excluir":"participar de"} editais no sistema</span>
+										<span>Utilize o menu abaixo para {user.admin?"criar, editar e excluir":"participar de"} editais no sistema</span>
 										<br/><br/>
 									</div>
 								</div>
