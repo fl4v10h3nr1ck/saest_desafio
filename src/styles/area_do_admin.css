@@ -1,0 +1,48 @@
+
+
+.area_dados_pessoais{
+	
+	width:96%;
+	min-height:100px;
+	background-image:linear-gradient(#F5F5F5, #DDDDDD);
+	border-radius: 5px;
+	margin:20px auto;
+	padding:10px
+}
+
+
+.bloco_opcao{
+	
+	width:90%;
+	min-height:100px;
+	background-image: linear-gradient(#2b618b, #2b618b);
+	border-radius: 5px;
+	margin:20px auto;
+	padding:10px;
+	color:#FFFFFF
+}
+
+.bloco_opcao a{
+	
+	color:#FFFFFF
+}
+
+.bloco_opcao a:hover{
+	
+	color:#FFFFFF
+}
+
+
+.bloco_opcao .bt_icon{
+	
+	width:30px;
+	height:30px;
+	margin-top:10px;
+}
+
+
+.bloco_opcao .bloco_opcao_ttl{
+	
+	margin-top:10px;
+	font-weight:bold
+}
